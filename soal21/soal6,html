@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let namaSiswa = "Fikri";
+        let ukuranSepatu = 42;
+        let rataRapor = parseFloat(99.99);
+        let statusLulus = true;
+         
+        document.write('Nama Siswa: ' + namaSiswa + '<br>');
+        document.write('Ukuran Sepatu: ' + ukuranSepatu + '<br>');
+        document.write('Rata-rata Rapor: ' + rataRapor + '<br>');
+        document.write('Kelulusan: ' + statusLulus);
+
+        console.log('Nama Siswa: ' + namaSiswa);
+        console.log('Ukuran Sepatu: ' + ukuranSepatu);
+        console.log('Rata-rata Rapor: ' + rataRapor);
+        console.log('Kelulusan: ' + statusLulus);
+    </script>
+</body>
+</html>
